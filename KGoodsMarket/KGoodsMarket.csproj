@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\KGoodsMarket\**" />
+    <Content Remove="wwwroot\KGoodsMarket\**" />
+    <EmbeddedResource Remove="wwwroot\KGoodsMarket\**" />
+    <None Remove="wwwroot\KGoodsMarket\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.17" />
@@ -15,121 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KGoodsMarket_Class\KGoodsMarket_Class.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\creative\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\default\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\interactive\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\material\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\minimal\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\modern\assets\libs\toastify-js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\choices.js\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\flatpickr\types\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\flatpickr\utils\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\gmaps\docs\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\gmaps\examples\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\gmaps\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\gridjs\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\moment\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\particles.js\demo\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\rater-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\rater-js\test\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\swiper\angular\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\swiper\angular\esm2015\angular\src\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\swiper\types\modules\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\toastify-js\example\" />
-    <Folder Include="wwwroot\KGoodsMarket\dist\saas\assets\libs\toastify-js\src\" />
   </ItemGroup>
 
 </Project>

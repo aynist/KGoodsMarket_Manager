@@ -33,6 +33,8 @@ namespace KGoodsMarket
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            // 220624. 레이져사용.
             services.AddRazorPages();
         }
 
@@ -52,6 +54,8 @@ namespace KGoodsMarket
             }
 
             app.UseHttpsRedirection();
+
+            // 20220624. wwwroot사용.
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -61,6 +65,7 @@ namespace KGoodsMarket
 
             app.UseEndpoints(endpoints =>
             {
+                // 220624. 레이져사용.
                 endpoints.MapRazorPages();
             });
         }
